@@ -17,5 +17,6 @@ public class TrabalhoPraticoI {
     {
         // TODO code application logic here
         private int id;
+        private int idade;
     }
 }
