@@ -180,7 +180,7 @@ public class Funcionario
         }
         return true;
     }
-
+    /*------------ Método toString -------------------------------------------*/
     @Override
     public String toString() {
         return "Funcionario{" + "codigo=" + codigo + ", nome=" + nome + ", cargo=" + cargo + ", endereco=" + endereco + ", rg=" + rg + ", cpf=" + cpf + '}';
