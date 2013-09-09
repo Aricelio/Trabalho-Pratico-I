@@ -23,8 +23,7 @@ public class TrabalhoPraticoI {
         ari.setCodigo(2);
         ari.setCpf("115.825.116-59");
         ari.setRg("17.791.878");
-        ari.setEndereco("Rua Coronel");
-        
+        ari.setEndereco("Rua Coronel");        
         System.out.print(ari.toString());     */   
     }
 }
