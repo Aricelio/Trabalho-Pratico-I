@@ -22,6 +22,7 @@ public class Caixa
     public Caixa() 
     {
         this.saldo = 0;
+        this.codigo = 0;
     }
     
     /*------------- Métodos Getters ------------------------------------------*/
@@ -55,8 +56,8 @@ public class Caixa
 
     public void setSaldo(double saldo) 
     {
-        if(saldo > 0)
-             this.saldo = saldo;
+        if(saldo >= 0)
+            this.saldo = saldo;
     }
     /*------------------ hashCode --------------------------------------------*/
     @Override
