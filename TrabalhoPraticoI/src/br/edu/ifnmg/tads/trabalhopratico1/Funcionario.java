@@ -25,7 +25,8 @@ public class Funcionario
     
     /*----- Construtor --------*/
     public Funcionario(){
-        
+        this.codigo = 0;
+                
     }
     
     /*------ Métodos Getters -------------------------------------------------*/
@@ -172,10 +173,12 @@ public class Funcionario
         if (!Objects.equals(this.endereco, other.endereco)) {
             return false;
         }
-        if (!Objects.equals(this.rg, other.rg)) {
+        if (!Objects.equals(this.rg, other.rg)) 
+        {
             return false;
         }
-        if (!Objects.equals(this.cpf, other.cpf)) {
+        if (!Objects.equals(this.cpf, other.cpf)) 
+        {
             return false;
         }
         return true;
@@ -183,7 +186,7 @@ public class Funcionario
     /*------------ Método toString -------------------------------------------*/
     @Override
     public String toString() {
-        return "Funcionario{" + "codigo=" + codigo + ", nome=" + nome + ", cargo=" + cargo + ", endereco=" + endereco + ", rg=" + rg + ", cpf=" + cpf + '}';
+        return "Funcionario{" + "Codigo=" + codigo + ", Nome=" + nome + ", Cargo=" + cargo + ", Endereco=" + endereco + ", RG=" + rg + ", CPF=" + cpf + '}';
     }    
     
 }
