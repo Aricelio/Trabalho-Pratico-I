@@ -16,7 +16,7 @@ public class TrabalhoPraticoI {
     public static void main(String[] args) 
     {
         // TODO code application logic here
-        Funcionario ari = null;
+        /*Funcionario ari;
         
         ari.setNome("Aricelio");
         ari.setCargo("Instrutor");
@@ -25,6 +25,6 @@ public class TrabalhoPraticoI {
         ari.setRg("17.791.878");
         ari.setEndereco("Rua Coronel");
         
-        System.out.print(ari.toString());        
+        System.out.print(ari.toString());     */   
     }
 }
