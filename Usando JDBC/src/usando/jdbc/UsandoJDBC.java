@@ -36,7 +36,7 @@ public class UsandoJDBC {
         //comando.executeUpdate("insert into Pessoa(nome) values('Ari')");
         //comando.executeUpdate("insert into Carro(nome) values('Novo Uno')");
         //comando.executeUpdate("create table Carro ( codCarro int auto_increment primary key, nome varchar(50))");
-        comando.executeUpdate("");
+        //comando.executeUpdate("");
         //Consulta dados
         ResultSet rs = comando.executeQuery("SELECT * FROM Carro");
         
